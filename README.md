@@ -1,7 +1,7 @@
 ## bat files for easy batch converting images with primtive
 
 ### what is it and why should i care?
-it's simple and dirty bat files i made for someone who needed to batch convert some of their images using [primitive](https://github.com/fogleman/primitive)
+it's a simple and dirty bat file i made for someone who needed to batch convert some of their images using [primitive](https://github.com/fogleman/primitive)
 
 ### how to use?
 put your images in the "in" folder and use primtive.bat, after the process is complete the converted images can be found in the "out" folder
