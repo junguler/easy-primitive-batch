@@ -38,4 +38,4 @@ after setting that function in your ```.bashrc``` or ```.zshrc``` open the termi
 ```
 primit 500 1
 ```
-above example converts every with ```.jpg``` extension in your folder with traingle shape and 500 shapes per image
+above example converts every image with ```.jpg``` extension in your folder with traingle shape and 500 shapes per image
