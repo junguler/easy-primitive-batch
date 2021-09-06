@@ -20,6 +20,8 @@ i've uploaded a linux binary as well, make it executable if it's not already
 ```
 chmod +x primitive
 ```
+either add the binary to a folder in your ```@PATH``` or put ```./``` behind the primitive binary in the folder it is in to let the shell know where it is, or put the absolute address to the binary like this ```~/bin/primitive```
+
 install imagemagick for your distro
 
 i'm planning on making a bash script eventually but you can use a simple bash/zsh function for the time being
