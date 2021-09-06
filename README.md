@@ -14,3 +14,20 @@ i did make a binary myself for my personal use but i used the binary that was ma
 
 ### something went wrong, how could i fix it?
 i'll try to help if i can but my knowlege of the language is pretty limited so you are better served searching online
+
+### what about linux versions?
+i've uploaded a linux binary as well, make it executable if it's not already 
+```
+chmod +x primitive
+```
+i'm planning on making a bash script eventually but you can use a simple bash/zsh function for the time being
+```
+primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m "$3"; done; }
+```
+```-i``` imports files, change ```*.jpg``` to other extensions as needed or ```*.*``` if everything you have in a folder is pictures
+
+```-o``` decides output extensions, if you want to output to different folders here is where to change it, like this: ```-o ./out/p-$i."$1"``` 
+
+```-n``` decides number of the shapes, more is slower but makes the output image more similar to the input image
+
+```-m``` sets the modes, ```0```=combo , ```1```=triangle , ```2```=rect``` , ```3```=ellipse , ```4```=circle , ```5```=rotatedrect , ```6```=beziers , ```7```=rotatedellipse , ```8```=polygon. multiple choices are not permitted here, choose one, for example ```4``` for circles
