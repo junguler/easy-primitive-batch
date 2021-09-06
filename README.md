@@ -39,3 +39,9 @@ after setting that function in your ```.bashrc``` or ```.zshrc``` open the termi
 primit 500 1
 ```
 above example converts every image with ```.jpg``` extension in your folder with traingle shape and 500 shapes per image
+
+
+you can also do all of this in the terminal without making a function:
+```
+for i in *.jpg; do echo $i; primitive -i $i -o p-$i."png" -n "500" -m "1"; done
+```
