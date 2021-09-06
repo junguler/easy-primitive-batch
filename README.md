@@ -24,7 +24,7 @@ i'm planning on making a bash script eventually but you can use a simple bash/zs
 ```
 primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m "$3"; done; }
 ```
-```-i``` imports files, change ```*.jpg``` to other extensions as needed or ```*.*``` if everything you have in a folder is pictures
+```-i``` imports images, change ```*.jpg``` to other extensions as needed or ```*.*``` if everything you have in a folder is pictures
 
 ```-o``` decides output extensions, if you want to output to different folders here is where to change it, like this: ```-o ./out/p-$i."$1"``` 
 
