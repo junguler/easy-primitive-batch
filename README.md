@@ -34,7 +34,7 @@ primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m 
 
 ```-m``` sets the modes, ```0```for combo , ```1``` for triangle , ```2``` for rect , ```3``` for ellipse , ```4``` for circle , ```5``` for rotatedrect , ```6``` for beziers , ```7``` for rotatedellipse , ```8``` for polygon. multiple choices are not permitted here, choose one, for example ```-m 4```
 
-after setting that function in your ```.bashrc``` or ```.zshrc``` open the terminal in a folder wit your images and do this for example:
+after setting that function in your ```.bashrc``` or ```.zshrc``` open the terminal in a folder with your images and do this for example:
 ```
 primit 500 1
 ```
