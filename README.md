@@ -20,6 +20,8 @@ i've uploaded a linux binary as well, make it executable if it's not already
 ```
 chmod +x primitive
 ```
+install imagemagick for your distro
+
 i'm planning on making a bash script eventually but you can use a simple bash/zsh function for the time being
 ```
 primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m "$3"; done; }
