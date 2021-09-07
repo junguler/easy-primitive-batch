@@ -21,7 +21,7 @@ i did make a binary myself for my personal use but i used the binary that was ma
 i'll try to help if i can but my knowlege of the language is pretty limited so you are better served searching online
 
 ### what about linux?
-i've uploaded a linux binary as well, make it executable if it's not already 
+i've uploaded a linux binary as well, make it executable in the terminal if it's not already 
 ```
 chmod +x primitive
 ```
