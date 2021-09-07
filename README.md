@@ -4,6 +4,11 @@
 it's a simple and dirty bat file i made for someone who needed to batch convert some of their images using [primitive](https://github.com/fogleman/primitive)
 
 ### how to use?
+either clone the repo 
+``` 
+git clone https://github.com/junguler/easy-primitive-batch.git
+```
+or download the automatically created [zip file](https://github.com/junguler/easy-primitive-batch/archive/refs/heads/main.zip) and extract the folder with [7-zip](https://www.7-zip.org/) or [peazip](https://peazip.github.io/), 
 put your images in the "in" folder and use primitive.bat, after the process is complete the converted images can be found in the "out" folder
 
 ### what are magick.exe and convert.exe
