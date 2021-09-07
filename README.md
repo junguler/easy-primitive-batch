@@ -26,9 +26,10 @@ install imagemagick for your distro
 
 i've included a ```primitive.sh``` bash script for easy usage, the script assumes you have the ```primitve``` binary in the same folder as it, if you want to put primitive in your ```@PATH``` change ```./primitive``` to ```primitive``` in the script and put the script in ```@PATH``` aswell and omit ```./``` in terminal
 
-make it executable if it's not already
+make it executable
 ```
-chmod +x primitive.sh
+chmod +x geometrize.sh
+geometrize_advanced.sh
 ```
 in your terminal do:
 ```
