@@ -24,7 +24,20 @@ either add the binary to a folder in your ```@PATH``` or put ```./``` behind the
 
 install imagemagick for your distro
 
-i'm planning on making a bash script eventually but you can use a simple bash/zsh function for the time being
+i've included a ```primitive.sh``` bash script for easy usage, the script assumes you have the ```primitve``` binary in the same folder as it, if you want to put primitive in your ```@PATH``` change ```./primitive``` to ```primitive``` in the script and put the script in ```@PATH``` aswell and omit ```./``` in terminal
+
+make it executable if it's not already
+```
+chmod +x primitive.sh
+```
+in your terminal do:
+```
+./primitive.sh
+primitive.sh
+```
+
+if you don't need a script there is also a bash/zsh function and for loop as well, read them below:
+
 ```
 primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m "$3"; done; }
 ```
