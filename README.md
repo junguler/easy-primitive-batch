@@ -68,6 +68,6 @@ above example converts every image with `.jpg` extension in your folder with tra
 
 you can also do all of this in the terminal without making a function:
 ```
-for i in *.jpg; do echo $i; primitive -i $i -o p-$i."png" -n "500" -m "1"; done
+for i in *.jpg; do echo $i; primitive -i $i -o p-$i.png -n 500 -m 1; done
 ```
-if you don't want to change output extension remove `."png"` part and just do `-o p-$i`
+if you don't want to change output extension remove `.png` part and just do `-o p-$i`
