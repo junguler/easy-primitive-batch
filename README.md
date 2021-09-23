@@ -60,9 +60,9 @@ primit () { for i in *.jpg; do echo $i; primitive -i $i -o p-$i."$1" -n "$2" -m 
 
 after setting that function in your `.bashrc` or `.zshrc` open the terminal in a folder with your images and do this for example:
 ```
-primit 500 1
+primit png 500 1
 ```
-above example converts every image with `.jpg` extension in your folder with traingle shape and 500 shapes per image
+above example converts every image with `.jpg` extension in your folder with traingle shape and 500 shapes per image and png extension
 
 ### for loop
 
