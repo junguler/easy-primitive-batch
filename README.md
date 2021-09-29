@@ -1,5 +1,5 @@
 ## bat files for easy batch converting images with primtive
-click on the animated gif below to go to my repo that shows some examples of you images can look
+click on the animated gif below to go to my repo that shows some examples of your images can look
 
 [![P_banner](https://user-images.githubusercontent.com/59083599/135177535-ce475d39-de62-4d85-b108-68a2a0cdc0f0.gif)](https://github.com/junguler/_image-manipulation/tree/main/Primitive)
 
